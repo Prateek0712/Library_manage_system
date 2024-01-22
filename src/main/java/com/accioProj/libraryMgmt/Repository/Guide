@@ -1,0 +1,7 @@
+we dont need to  write anything  reposity we just need  to extend  JPArepository which provides inbuilt
+methods for save,update,detete,create, search basic operation if we have to run just simple
+queriies on database.... JPAreposity is a innterface here we dont need to provide implementation  for it
+or even we dont  care about what is that implementation it is internal part of JPA dependency
+we just extending it and using there method... but we need create interface which will extends  JPA interface
+for each table or we can say entity we have to create diff repo,service and controlller
+is will also simplify our task...

@@ -1,0 +1,7 @@
+DTO are user define classes it provide security for  request and responce so client will not be  able  to
+ add information which he is not been givne  a permission.
+ like if client is  directly able to give  obj  of student  entity then he might be also give  id so that will be
+ vulanable becoz id is auto  generated. so it is big  security risk. so what  will we doing we create  class which have
+ data type which we want  thatt client should send so ....we will transfer  this DTO  class obj to service where
+ we build our student or any  class obj and then pass to  service layer so it  will also provide
+ security to great  extent.
